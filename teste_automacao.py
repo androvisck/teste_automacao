@@ -54,7 +54,7 @@ def click2():
     # Escrita no formulário online
     ### OBSERVAÇÃO ~> retire '/viewform' e add '/formResponse' ao fim do link ###
 
-    url = "https://docs.google.com/forms/d/e/1FAIpQLSd3dOHHwAQ7JtxBc-Yyfu2B9jBT834Z6OLv_STMPm9qqYdyjg/formResponse"
+    url = "https://docs.google.com/forms/d/e/1FAIpQLSeGkKoum1HEonSxWeZP8r2PDHBncBVxRn61O4x4SwgTILDWtQ/formResponse"
 
     # Laço for com número de iterações = número de linhas do documento
     for x in range(2, linha + 1):
@@ -72,10 +72,14 @@ def click2():
         if Complemento == None:
             Complemento = 'NA'
 
-        # print(x)  # verificar o funcionamento
+        print(x)  # verificar o funcionamento
 
-        form_data = {'entry.366340186': nome, 'entry.1613519622': Item, 'entry.2045809580': CEP,
-                     'entry.1334556551': Endereco, 'entry.1114882091': Complemento, 'draftResponse': [],
+        form_data = {'entry.796078177': nome,
+                     'entry.1739664412': Item,
+                     'entry.1391419047': CEP,
+                     'entry.377666364': Endereco,
+                     'entry.2057892184': Complemento,
+                     'draftResponse': [],
                      'pageHistory': 0}
 
         user_agent = {'Referer': url,
