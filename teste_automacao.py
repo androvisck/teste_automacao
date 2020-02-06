@@ -90,6 +90,6 @@ def click2():
 
 # Posição do botão executar
 btn2 = Button(labelframe, text='Executar', command=click2)
-btn2.grid(column=0, row=2)a
+btn2.grid(column=0, row=2)
 
 window.mainloop()
