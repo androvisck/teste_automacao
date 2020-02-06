@@ -72,7 +72,7 @@ def click2():
         if Complemento == None:
             Complemento = 'NA'
 
-        print(x)  # verificar o funcionamento
+        # print(x)  # verificar o funcionamento
 
         form_data = {'entry.796078177': nome,
                      'entry.1739664412': Item,
